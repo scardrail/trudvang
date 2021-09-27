@@ -1,3 +1,94 @@
 {
-    "trudvang": {}
+    "trudvang": {
+        "description": "Description",
+
+        "races": {
+            "humans": "Humains",
+            "elves": "Elfes",
+            "dwarves": "Nains",
+            "half-trolls": "Demi-trolls",
+            "half-elves": "Demi-elfes",
+            "dwarf-trolls": "Nain-trolls"
+        },
+
+        "cultures": {
+            "humans": {
+                "stormlanders": "Stormlanders",
+                "wMittlanders": "Mittlanders de l’ouest",
+                "mMittlanders": "Mittlanders du centre",
+                "eMittlanders": "Mittlanders de l’est",
+                "viranns": "Viranns",
+                "wildfolk": "Sauvages"
+            },
+            "elves": {
+                "korpikalli": "Korpikallas",
+                "illmalaini": "Illmalainas"
+            },
+            "dwarves": {
+                "buratja": "Buratjas",
+                "borjornikkas": "Borjornikkas"
+            },
+            "half-trolls": {
+                "changelings": "Changelins",
+                "grayBrute": "Brutes grises",
+                "ogro": "Ogros"
+            },
+            "half-elves": {
+                "dyfirs": "Dyfirs",
+                "barkbrule": "Barkbrules"
+            },
+            "dwarf-trolls": {
+                "zvordas": "Zvordas"
+            }
+        },
+
+        "languages": {
+            "eika": "Eika",
+            "futhark": "Futhark",
+            "rona": "Rona",
+            "vrok": "Vrok",
+            "wildVrok": "Vrok sauvage"
+        },
+
+        "archetypes": {
+            "dimwalker": "Arpenteurs des brumes",
+            "bard": "Barde",
+            "dweller": "Colon",
+            "warrior": "Guerrier",
+            "rogue": "Malfrat",
+            "ranger": "Rôdeur",
+            "vitnerWeaver": "Tisseur de vitner"
+        },
+
+        "baseCpt": {
+            "bard": {
+                "knowledge": "Connaissances",
+                "entertainment": "Entertainment"
+            },
+            "dimwalker": {
+                "knowledge": "Connaissances",
+                "faith": "Foi"
+            },
+            "dweller": {
+                "knowledge": "Connaissances",
+                "care": "Savoir-faire"
+            },
+            "ranger": {
+                "knowledge": "Connaissances",
+                "wilderness": "Nature"
+            },
+            "rogue": {
+                "knowledge": "Connaissances",
+                "shadowArts": "Arts des ombres"
+            },
+            "vitnerWeaver": {
+                "knowledge": "Connaissances",
+                "vitnerCraft": "Maîtrise du vitner"
+            },
+            "warrior": {
+                "knowledge": "Connaissances",
+                "fighting": "Combat"
+            }
+        }
+    }
 }
