@@ -1,3 +1,96 @@
 {
-    "trudvang": {}
+    "trudvang": {
+        "description": "Description",
+
+        "races": {
+            "humans": "Humains",
+            "elves": "Elfes",
+            "dwarves": "Nains",
+            "half-trolls": "Demi-trolls",
+            "half-elves": "Demi-elfes",
+            "dwarf-trolls": "Nain-trolls"
+        },
+
+        "cultures": {
+            "humans": {
+                "stormlanders": "Stormlanders",
+                "wMittlanders": "western Mittlanders",
+                "mMittlanders": "middle Mittlanders",
+                "eMittlanders": "eastern Mittlanders",
+                "viranns": "Viranns",
+                "wildfolk": "Wildfolk"
+            },
+            "elves": {
+                "korpikalli": "Korpikalli",
+                "illmalaini": "Illmalaini"
+            },
+            "dwarves": {
+                "buratja": "Buratja",
+                "borjornikkas": "Borjornikkas"
+            },
+            "half-trolls": {
+                "changelings": "Changelings",
+                "grayBrute": "Gray brute",
+                "ogro": "Ogro"
+            },
+            "half-elves": {
+                "dyfirs": "Dyfirs",
+                "barkbrule": "Barkbrules"
+            },
+            "dwarf-trolls": {
+                "zvordas": "Zvordas"
+            }
+        },
+
+        "languages": {
+            "eika": "Eika",
+            "futhark": "Futhark",
+            "rona": "Rona",
+            "vrok": "Vrok",
+            "wildVrok": "Wild Vrok"
+        },
+
+        "archetypes": {
+            "bard": "Bard",
+            "dimwalker": "Dimwalker",
+            "dweller": "Dweller",
+            "ranger": "Ranger",
+            "rogue": "Rogue",
+            "vitnerWeaver": "Vitner Weaver",
+            "warrior": "Warrior"
+        },
+
+        "baseCpt": {
+            "bard": {
+                "entertainment": "Entertainment",
+                "knowledge": "Knowledge"
+
+            },
+            "dimwalker": {
+                "faith": "Faith",
+                "knowledge": "Knowledge"
+            },
+            "dweller": {
+                "knowledge": "Knowledge",
+                "care": "Care"
+            },
+            "ranger": {
+                "knowledge": "Knowledge",
+                "wilderness": "Wilderness"
+            },
+            "rogue": {
+                "knowledge": "Knowledge",
+                "shadowArts": "Shadow Arts"
+            },
+            "vitnerWeaver": {
+                "knowledge": "Knowledge",
+                "vitnerCraft": "Vitner Craft"
+            },
+            "warrior": {
+                "knowledge": "Knowledge",
+                "fighting": "Fighting"
+            }
+        }
+
+    }
 }

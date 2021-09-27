@@ -1,6 +1,40 @@
 {
     "Actor": {
-        "types": []
+        "types": ["pj", "pnj", "extra", "creature"],
+        "templates": {
+            "commonStats": {
+                "age": 0,
+                "size": " ",
+                "weight": " ",
+                "gender": " ",
+                "handOfArms": " ",
+                "race": " ",
+                "culture": " ",
+                "lang": " ",
+                "archetype": " ",
+                "religion": " ",
+                "pa": {
+                    "available": 0,
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "importantCharacter": {
+                "features": {
+                    "charism": 0,
+                    "Constitution": 0,
+                    " Dextérité": 0,
+                    " Intelligence": 0,
+                    " Perception": 0,
+                    " Psychisme": 0,
+                    " Force": 0
+                }
+            }
+        },
+        "pj": {},
+        "pnj": {},
+        "extra": {},
+        "creature": {}
     },
     "Item": {
         "types": []
