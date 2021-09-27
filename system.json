@@ -9,8 +9,23 @@
     "minimumCoreVersion": "0.8.9",
     "compatibleCoreVersion": "0.8.9",
     "scripts": [],
-    "styles": [],
-    "languages": [],
+    "esmodules": [
+        "module/trudvang.js"
+    ],
+    "styles": [
+        "trudvang.css"
+    ],
+    "languages": [{
+            "lang": "fr",
+            "name": "Français",
+            "path": "lang/fr.json"
+        },
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
     "packs": [],
     "system": [],
     "dependencies": [],
