@@ -3,40 +3,1142 @@
         "types": ["pj", "pnj", "extra", "creature"],
         "templates": {
             "commonStats": {
+                "gender": " ",
                 "age": 0,
+                "ageGroup": " ",
                 "size": " ",
                 "weight": " ",
-                "gender": " ",
                 "handOfArms": " ",
-                "race": " ",
-                "culture": " ",
-                "lang": " ",
-                "archetype": " ",
-                "religion": " ",
-                "pa": {
-                    "available": 0,
-                    "used": 0,
-                    "total": 0
+                "affiliations": {
+                    "race": " ",
+                    "nationality": " ",
+                    "religion": " ",
+                    "lang": " ",
+                    "archetype": " "
+                },
+                "richess": {
+                    "copper": {
+                        "amount": 0,
+                        "cc": 0,
+                        "sc": 0,
+                        "kg": 0
+                    },
+                    "silver": {
+                        "amount": 0,
+                        "cc": 0,
+                        "sc": 0,
+                        "kg": 0
+                    },
+                    "gold": {
+                        "amount": 0,
+                        "cc": 0,
+                        "sc": 0,
+                        "kg": 0
+                    }
+                },
+                "rations": {
+                    "amount": 0,
+                    "kg": 0
                 }
             },
             "importantCharacter": {
-                "features": {
-                    "charism": 0,
-                    "Constitution": 0,
-                    " Dextérité": 0,
-                    " Intelligence": 0,
-                    " Perception": 0,
-                    " Psychisme": 0,
-                    " Force": 0
+                "cp": {
+                    "experience": " ",
+                    "starting": 0,
+                    "archetypeBonus": 0,
+                    "traitRefund": 0,
+                    "adventurePoints": 0,
+                    "available": 0,
+                    "traits": {
+                        "first": " ",
+                        "second": " "
+                    }
+                },
+                "traits": {
+                    "charism": { "value": 0, "sv": 0 },
+                    "constitution": { "value": 0, "sv": 0 },
+                    "dexterity": { "value": 0, "sv": 0 },
+                    "intelligence": { "value": 0, "sv": 0 },
+                    "perception": { "value": 0, "sv": 0 },
+                    "psychism": { "value": 0, "sv": 0 },
+                    "strength": { "value": 0, "sv": 0 }
+                },
+                "secondaryTraits": {
+                    "raud": 0,
+                    "bodyPoints": {
+                        "value": 0,
+                        "max": 0,
+                        "state": " ",
+                        "mod": 0
+                    },
+                    "maxMovement": 0,
+                    "persistInWild": 0,
+                    "naturalHealing": " ",
+                    "terrorModifier": 0,
+                    "maximumHeft": 0
+                },
+                "fightingPoints": {
+                    "free": { "cp": 0, "modSv": 1 },
+                    "attackParries": { "cp": 0, "modSv": 1 },
+                    "combatAction": { "cp": 0, "modSv": 1 },
+                    "armed": { "cp": 0, "modSv": 1 },
+                    "bowsAndSling": { "cp": 0, "modSv": 1 },
+                    "crossbow": { "cp": 0, "modSv": 1 },
+                    "oneHandLightLeft": { "cp": 0, "modSv": 1 },
+                    "oneHandLightRight": { "cp": 0, "modSv": 1 },
+                    "oneHandHeavyLeft": { "cp": 0, "modSv": 1 },
+                    "oneHandHeavyRight": { "cp": 0, "modSv": 1 },
+                    "shieldBearer": { "cp": 0, "modSv": 1 },
+                    "throwingLeft": { "cp": 0, "modSv": 1 },
+                    "throwingRight": { "cp": 0, "modSv": 1 },
+                    "twoHanded": { "cp": 0, "modSv": 1 },
+                    "unarmed": { "cp": 0, "modSv": 1 },
+                    "bawling": { "cp": 0, "modSv": 1 },
+                    "wrestling": { "cp": 0, "modSv": 1 }
+                },
+                "fear": {
+                    "value": 0,
+                    "status": " ",
+                    "mod": 0,
+                    "hasMadness": false
+                },
+                "bodyPointThresholds": {
+                    "lightlyDamaged": { "min": 0, "max": 0 },
+                    "injured": { "min": 0, "max": 0 },
+                    "seriouslyInjured": { "min": 0, "max": 0 },
+                    "criticallyInjured": { "min": 0, "max": 0 },
+                    "dying": { "min": 0 }
+                },
+                "Competences": {
+                    "agility": {
+                        "vc": 0
+                    },
+                    "care": {
+                        "vc": 0
+                    },
+                    "entertainment": {
+                        "vc": 0
+                    },
+                    "faith": {
+                        "vc": 0
+                    },
+                    "fighting": {
+                        "vc": 0
+                    },
+                    "knowledge": {
+                        "vc": 0
+                    },
+                    "shadowArts": {
+                        "vc": 0
+                    },
+                    "vitnerCraft": {
+                        "vc": 0
+                    },
+                    "wilderness": {
+                        "vc": 0
+                    }
+                },
+                "domains": {
+                    "agility": {
+                        "bodyControl": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "horsemanship": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "battleManeuver": {
+                            "level": 0,
+                            "vc": 0
+                        }
+                    },
+                    "care": {
+                        "handicraft": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "tradesman": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "handler": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "healingAndDrugs": {
+                            "level": 0,
+                            "vc": 0
+                        }
+                    },
+                    "entertainment": {
+                        "gambling": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "musicAndDancing": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "storytelling": {
+                            "level": 0,
+                            "vc": 0
+                        }
+                    },
+                    "faith": {
+                        "godFocus": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "invoke": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "divinePower": {
+                            "level": 0,
+                            "vc": 0
+                        }
+                    },
+                    "fighting": {
+                        "unarmedFighting": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "armedFighting": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "battleExperience": {
+                            "level": 0,
+                            "vc": 0
+                        }
+                    },
+                    "knowledge": {
+                        "learning": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "raceKnowledge": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "cultureKnowledge": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "language": {
+                            "level": 0,
+                            "vc": 0
+                        }
+                    },
+                    "shadowArts": {
+                        "shadowing": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "thievery": {
+                            "level": 0,
+                            "vc": 0
+                        }
+                    },
+                    "vitnerCraft": {
+                        "callOfVitner": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "vitnerFocus": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "vitnerShaping": {
+                            "level": 0,
+                            "vc": 0
+                        }
+                    },
+                    "wilderness": {
+                        "natureKnowledge": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "huntingExperience": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "geography": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "seafarer": {
+                            "level": 0,
+                            "vc": 0
+                        },
+                        "survival": {
+                            "level": 0,
+                            "vc": 0
+                        }
+                    }
+                },
+                "specialities": {
+                    "agility": {
+                        "bodyControl": {
+                            "ambidexterity": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "jestering": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "jumpClimbBal": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "swimming": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "horsemanship": {
+                            "drivingWagon": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "riding": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "battleManeuver": {
+                            "combatMovement": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "evade": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "ironClad": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        }
+                    },
+                    "care": {
+                        "handicraft": {
+                            "counterfeiting": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "hardMaterials": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "softMaterials": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "tradesman": {
+                            "barber": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "brewer": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "cooking": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "peasant": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "trader": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "handler": {
+                            "commander": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "sage": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "healingAndDrugs": {
+                            "extractsAndPotions": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "firstAidAndNursing": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        }
+                    },
+                    "entertainment": {
+                        "gambling": {
+                            "cheater": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "gameStrategist": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "greatGambler": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "musicAndDancing": {
+                            "dance": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "singingAndPlayingInstruments": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "storytelling": {
+                            "actingAndPlayWright": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "libel": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        }
+                    },
+                    "faith": {
+                        "godFocus": {
+                            "composed": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "lighningQuickInvocation": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "potent": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "rigorous": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "invoke": {
+                            "bruid": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "holyTablet": {
+                                "giftOfThanja": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "halawenOffering": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "heritageOfManje": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "maghGift": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "nemaUsefullness": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "tributeOfMorgu": {
+                                    "level": 0,
+                                    "vc": 0
+                                }
+                            }
+                        },
+                        "divinePower": {
+                            "faithful": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "powerful": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        }
+                    },
+                    "fighting": {
+                        "unarmedFighting": {
+                            "bowsAndSlings": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "crossbows": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "oneHandLightLeft": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "oneHandLightRight": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "oneHandHeavyLeft": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "oneHandHeavyRight": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "shieldBearer": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "throwingLeft": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "throwingRight": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "twoHanded": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "armedFighting": {
+                            "armorBearer": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "combatAction": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "combatReaction": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "crossbowLoader": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "fighter": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "battleExperience": {
+                            "brawling": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "wrestling": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        }
+                    },
+                    "knowledge": {
+                        "learning": {
+                            "insight": {
+                                "name": " ",
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "raceKnowledge": {
+                            "monsterLore": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "spiritLore": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "cultureKnowledge": {
+                            "mittlanders": {
+                                "level": 0,
+                                "vc": 0,
+                                "loreLegends": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "customsLaws": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "religion": {
+                                    "level": 0,
+                                    "vc": 0
+                                }
+                            },
+                            "stormlanders": {
+                                "level": 0,
+                                "vc": 0,
+                                "loreLegends": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "customsLaws": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "religion": {
+                                    "level": 0,
+                                    "vc": 0
+                                }
+                            },
+                            "viranns": {
+                                "level": 0,
+                                "vc": 0,
+                                "loreLegends": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "customsLaws": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "religion": {
+                                    "level": 0,
+                                    "vc": 0
+                                }
+                            },
+                            "wildfolks": {
+                                "level": 0,
+                                "vc": 0,
+                                "loreLegends": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "customsLaws": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "religion": {
+                                    "level": 0,
+                                    "vc": 0
+                                }
+                            },
+                            "elves": {
+                                "level": 0,
+                                "vc": 0,
+                                "loreLegends": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "customsLaws": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "religion": {
+                                    "level": 0,
+                                    "vc": 0
+                                }
+                            },
+                            "dwarves": {
+                                "level": 0,
+                                "vc": 0,
+                                "loreLegends": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "customsLaws": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "religion": {
+                                    "level": 0,
+                                    "vc": 0
+                                }
+                            }
+                        },
+                        "language": {
+                            "bribery": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "calculate": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "silverTongue": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "tongue": {
+                                "eika": {
+                                    "speaking": {
+                                        "level": 0,
+                                        "vc": 0,
+                                        "motherTongue": false
+                                    },
+                                    "readingWriting": {
+                                        "level": 0,
+                                        "vc": 0
+                                    }
+                                },
+                                "futhark": {
+                                    "speaking": {
+                                        "level": 0,
+                                        "vc": 0,
+                                        "motherTongue": false
+                                    },
+                                    "readingWriting": {
+                                        "level": 0,
+                                        "vc": 0
+                                    }
+                                },
+                                "rona": {
+                                    "speaking": {
+                                        "level": 0,
+                                        "vc": 0,
+                                        "motherTongue": false
+                                    },
+                                    "readingWriting": {
+                                        "level": 0,
+                                        "vc": 0
+                                    }
+                                },
+                                "vrok": {
+                                    "speaking": {
+                                        "level": 0,
+                                        "vc": 0,
+                                        "motherTongue": false
+                                    },
+                                    "readingWriting": {
+                                        "level": 0,
+                                        "vc": 0
+                                    }
+                                },
+                                "estiatic": {
+                                    "speaking": {
+                                        "level": 0,
+                                        "vc": 0,
+                                        "motherTongue": false
+                                    },
+                                    "readingWriting": {
+                                        "level": 0,
+                                        "vc": 0
+                                    }
+                                },
+                                "wildVrok": {
+                                    "speaking": {
+                                        "level": 0,
+                                        "vc": 0,
+                                        "motherTongue": false
+                                    },
+                                    "readingWriting": {
+                                        "level": 0,
+                                        "vc": 0
+                                    }
+                                },
+                                "thronelandic": {
+                                    "speaking": {
+                                        "level": 0,
+                                        "vc": 0,
+                                        "motherTongue": false
+                                    },
+                                    "readingWriting": {
+                                        "level": 0,
+                                        "vc": 0
+                                    }
+                                },
+                                "bastjumal": {
+                                    "speaking": {
+                                        "level": 0,
+                                        "vc": 0,
+                                        "motherTongue": false
+                                    },
+                                    "readingWriting": {
+                                        "level": 0,
+                                        "vc": 0
+                                    }
+                                },
+                                "ancientVrok": {
+                                    "speaking": {
+                                        "level": 0,
+                                        "vc": 0,
+                                        "motherTongue": false
+                                    },
+                                    "readingWriting": {
+                                        "level": 0,
+                                        "vc": 0
+                                    }
+                                },
+                                "forneika": {
+                                    "speaking": {
+                                        "level": 0,
+                                        "vc": 0,
+                                        "motherTongue": false
+                                    },
+                                    "readingWriting": {
+                                        "level": 0,
+                                        "vc": 0
+                                    }
+                                },
+                                "ancientRona": {
+                                    "speaking": {
+                                        "level": 0,
+                                        "vc": 0,
+                                        "motherTongue": false
+                                    },
+                                    "readingWriting": {
+                                        "level": 0,
+                                        "vc": 0
+                                    }
+                                },
+                                "drageathian": {
+                                    "speaking": {
+                                        "level": 0,
+                                        "vc": 0,
+                                        "motherTongue": false
+                                    },
+                                    "readingWriting": {
+                                        "level": 0,
+                                        "vc": 0
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "shadowArts": {
+                        "shadowing": {
+                            "camouflageHiding": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "findingSpotting": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "sneakAttack": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "walkingInShadows": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "thievery": {
+                            "disguise": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "locksAndTraps": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "shadowWorld": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "stealing": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "thiefSigns": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        }
+                    },
+                    "vitnerCraft": {
+                        "callOfVitner": {
+                            "vitnerType": {
+                                "name": " ",
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "vitnerHabit": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "vitnerFocus": {
+                            "potency": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "safeweaving": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "strenuous": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "vitnerShaping": {
+                            "galding": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "sejding": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "vitnerRunes": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "vyrding": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "vitnerTablet": {
+                                "animalVitner": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "bodyVitner": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "delusionVitner": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "dimvitner": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "flameCraft": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "perceiving": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "powerOfThrought": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "powerOfVision": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "soilCraft": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "vitnerCraft": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "vitnerOfObjects": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "waterCraft": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "windCraft": {
+                                    "level": 0,
+                                    "vc": 0
+                                },
+                                "witchcraft": {
+                                    "level": 0,
+                                    "vc": 0
+                                }
+                            }
+                        }
+                    },
+                    "wilderness": {
+                        "natureKnowledge": {
+                            "animalFriend": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "botany": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "weatherman": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "zoology": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "huntingExperience": {
+                            "carveButcher": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "huntingFishing": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "tracker": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "wildernessSigns": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "speciesHunter": {
+                                "name": " ",
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "geography": {
+                            "cityKnowledge": {
+                                "name": " ",
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "landKnowledge": {
+                                "name": " ",
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "seaKnowledge": {
+                                "name": " ",
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "orienteeringCartography": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "seafarer": {
+                            "navigation": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "seaman": {
+                                "level": 0,
+                                "vc": 0
+                            }
+                        },
+                        "survival": {
+                            "camper": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "pathwalker": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "weathered": {
+                                "level": 0,
+                                "vc": 0
+                            },
+                            "terrainExperience": {
+                                "name": " ",
+                                "level": 0,
+                                "vc": 0
+                            }
+                        }
+                    }
                 }
+
             }
         },
-        "pj": {},
-        "pnj": {},
-        "extra": {},
-        "creature": {}
+        "pj": {
+            "templates": ["commonStats", "importantCharacter"]
+        },
+        "pnj": {
+            "templates": ["commonStats", "importantCharacter"]
+        },
+        "extra": {
+            "templates": ["commonStats"]
+        },
+        "creature": {
+            "templates": ["commonStats"]
+        }
     },
     "Item": {
-        "types": []
+        "types": ["spells", "divineFeats", "armor", "weapons", "shields", "other"],
+        "templates": {
+            "tablets": {
+                "level": 0,
+                "im": 0,
+                "type": " ",
+                "duration": " ",
+                "range": " "
+            },
+            "equipments": {
+                "quality": " ",
+                "pv": 0,
+                "bv": 0,
+                "im": 0,
+                "sc": 0,
+                "kg": 0,
+                "bdmg": 0,
+                "description": " "
+            },
+            "weaponsShields": {
+                "wa": 0,
+                "or": " ",
+                "type": " ",
+                "offHand": 0,
+                "min": 0,
+                "short": 0,
+                "long": 0,
+                "throw": false,
+                "cpSv": 0
+            },
+            "others": {
+                "amount": 0,
+                "special": " ",
+                "sc": 0,
+                "kg": 0
+            }
+        },
+        "spells": {
+            "templates": ["tablets"],
+            "vp": 0,
+            "weave": " ",
+            "levPow": 0
+        },
+        "divineFeats": {
+            "templates": ["equipments"],
+            "dp": 0,
+            "invoke": " "
+        },
+        "armor": {
+            "templates": ["equipments"],
+            "mm": 0,
+            "heft": 0
+        },
+        "weapons": {
+            "templates": ["equipments", "weaponsShields"]
+        },
+        "shields": {
+            "templates": ["equipments", "weaponsShields"],
+            "pp": 0
+        },
+        "other": {
+            "templates": ["others"]
+        }
+
     }
 }

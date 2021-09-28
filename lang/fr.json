@@ -11,7 +11,7 @@
             "dwarf-trolls": "Nain-trolls"
         },
 
-        "cultures": {
+        "nationalities": {
             "humans": {
                 "stormlanders": "Stormlanders",
                 "wMittlanders": "Mittlanders de l’ouest",
@@ -59,11 +59,131 @@
             "ranger": "Rôdeur",
             "vitnerWeaver": "Tisseur de vitner"
         },
+        "traits": {
+            "charism": "Charisme",
+            "constitution": "Constitution",
+            "dexterity": "Dextérité",
+            "intelligence": "Intelligence",
+            "perception": "Perception",
+            "psychism": "Psychisme",
+            "strength": "Force"
+        },
+        "competences": {
+            "agility": "Agilité",
+            "care": "Savoir-faire",
+            "entertainment": "Divertissement",
+            "faith": "Foi",
+            "fighting": "Combat",
+            "knowledge": "Connaissances",
+            "shadowArts": "Arts des ombres",
+            "vitnerCraft": "Maîtrise du vitner",
+            "wilderness": "Nature"
+        },
+        "domains": {
+            "agility": {
+                "bodyControl": "Contrôle corporel",
+                "horsemanship": "Maîtrise équestre",
+                "battleManeuver": "Manoeuvres de combat"
+            },
+            "care": {
+                "handicraft": "Artisanat",
+                "tradesman": "Commerce",
+                "handler": "Diriger",
+                "healingAndDrugs": "Soins et remèdes"
+            },
+            "entertainment": {
+                "gambling": "Jeux",
+                "musicAndDancing": "Musique et danse",
+                "storytelling": "Narration"
+            },
+            "faith": {
+                "godFocus": "Concentration religieuse",
+                "invoke": "Invocation",
+                "divinePower": "Pouvoirs divins"
+            },
+            "fighting": {
+                "unarmedFighting": "Combat à mains nues",
+                "armedFighting": "Combat armé",
+                "battleExperience": "Expérience du combat"
+            },
+            "knowledge": {
+                "learning": "Apprentissage",
+                "raceKnowledge": "Connaissance des créatures",
+                "cultureKnowledge": "Connaissances culturelles",
+                "language": "Langage"
+            },
+            "shadowArts": {
+                "shadowing": "Discrétion",
+                "thievery": "Larcin"
+            },
+            "vitnerCraft": {
+                "callOfVitner": "Appel du vitner",
+                "vitnerFocus": "Concentration du tisseur",
+                "vitnerShaping": "Modelage du vitner"
+            },
+            "wilderness": {
+                "natureKnowledge": "Connaissance de la nature",
+                "huntingExperience": "Expérience de la chasse",
+                "geography": "Géographie",
+                "seafarer": "Marin",
+                "survival": "Survie"
+            }
+        },
+        "specialities": {
+            "agility": {
+                "bodyControl": {},
+                "horsemanship": {},
+                "battleManeuver": {}
+            },
+            "care": {
+                "handicraft": {},
+                "tradesman": {},
+                "handler": {},
+                "healingAndDrugs": {}
+            },
+            "entertainment": {
+                "gambling": {},
+                "musicAndDancing": {},
+                "storytelling": {}
+            },
+            "faith": {
+                "godFocus": {},
+                "invoke": {},
+                "divinePower": {}
+            },
+            "fighting": {
+                "unarmedFighting": {},
+                "armedFighting": {},
+                "battleExperience": {}
+            },
+            "knowledge": {
+                "learning": {},
+                "raceKnowledge": {},
+                "cultureKnowledge": {},
+                "language": {}
+            },
+            "shadowArts": {
+                "shadowing": {},
+                "thievery": {}
+            },
+            "vitnerCraft": {
+                "callOfVitner": {},
+                "vitnerFocus": {},
+                "vitnerShaping": {}
+            },
+            "wilderness": {
+                "natureKnowledge": {},
+                "huntingExperience": {},
+                "geography": {},
+                "seafarer": {},
+                "survival": {}
+            }
+        },
 
         "baseCpt": {
             "bard": {
                 "knowledge": "Connaissances",
-                "entertainment": "Entertainment"
+                "entertainment": "Divertissement"
             },
             "dimwalker": {
                 "knowledge": "Connaissances",

@@ -11,7 +11,7 @@
             "dwarf-trolls": "Nain-trolls"
         },
 
-        "cultures": {
+        "nationalities": {
             "humans": {
                 "stormlanders": "Stormlanders",
                 "wMittlanders": "western Mittlanders",
@@ -58,6 +58,126 @@
             "rogue": "Rogue",
             "vitnerWeaver": "Vitner Weaver",
             "warrior": "Warrior"
+        },
+        "traits": {
+            "charism": "Charisma",
+            "constitution": "Constitution",
+            "dexterity": "Dexterity",
+            "intelligence": "Intelligence",
+            "perception": "Perception",
+            "psychism": "Psyche",
+            "strength": "Strength"
+        },
+        "competences": {
+            "agility": "Agility",
+            "care": "Care",
+            "entertainment": "Entertainment",
+            "faith": "Faith",
+            "fighting": "Fighting",
+            "knowledge": "Knowledge",
+            "shadowArts": "Shadow Arts",
+            "vitnerCraft": "Vitner Craft",
+            "wilderness": "Wilderness"
+        },
+        "domains": {
+            "agility": {
+                "bodyControl": "Body Control",
+                "horsemanship": "Horsemanship",
+                "battleManeuver": "Battle Maneuver"
+            },
+            "care": {
+                "handicraft": "Handicraft",
+                "tradesman": "Tradesman",
+                "handler": "Handler",
+                "healingAndDrugs": "Healing and Drugs"
+            },
+            "entertainment": {
+                "gambling": "Gambling",
+                "musicAndDancing": "Music and Dancing",
+                "storytelling": "Storytelling"
+            },
+            "faith": {
+                "godFocus": "God Focus",
+                "invoke": "Invoke",
+                "divinePower": "Divine Power"
+            },
+            "fighting": {
+                "unarmedFighting": "Unarmed Fighting",
+                "armedFighting": "Armed Fighting",
+                "battleExperience": "Battle Experience"
+            },
+            "knowledge": {
+                "learning": "Learning",
+                "raceKnowledge": "Race Knowledge",
+                "cultureKnowledge": "Culture Knowledge",
+                "language": "Language"
+            },
+            "shadowArts": {
+                "shadowing": "Shadowing",
+                "thievery": "Thievery"
+            },
+            "vitnerCraft": {
+                "callOfVitner": "Call of Vitner",
+                "vitnerFocus": "Vitner Focus",
+                "vitnerShaping": "Vitner Shaping"
+            },
+            "wilderness": {
+                "natureKnowledge": "Nature Knowledge",
+                "huntingExperience": "Hunting Experience",
+                "geography": "Geography",
+                "seafarer": "Seafarer",
+                "survival": "Survival"
+            }
+        },
+        "specialities": {
+            "agility": {
+                "bodyControl": {},
+                "horsemanship": {},
+                "battleManeuver": {}
+            },
+            "care": {
+                "handicraft": {},
+                "tradesman": {},
+                "handler": {},
+                "healingAndDrugs": {}
+            },
+            "entertainment": {
+                "gambling": {},
+                "musicAndDancing": {},
+                "storytelling": {}
+            },
+            "faith": {
+                "godFocus": {},
+                "invoke": {},
+                "divinePower": {}
+            },
+            "fighting": {
+                "unarmedFighting": {},
+                "armedFighting": {},
+                "battleExperience": {}
+            },
+            "knowledge": {
+                "learning": {},
+                "raceKnowledge": {},
+                "cultureKnowledge": {},
+                "language": {}
+            },
+            "shadowArts": {
+                "shadowing": {},
+                "thievery": {}
+            },
+            "vitnerCraft": {
+                "callOfVitner": {},
+                "vitnerFocus": {},
+                "vitnerShaping": {}
+            },
+            "wilderness": {
+                "natureKnowledge": {},
+                "huntingExperience": {},
+                "geography": {},
+                "seafarer": {},
+                "survival": {}
+            }
         },
 
         "baseCpt": {
