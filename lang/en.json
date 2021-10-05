@@ -1,14 +1,70 @@
 {
     "trudvang": {
         "description": "Description",
+        "none": " ",
+
+        "sheet":{
+            "affiliations":"Affiliations",
+            "background":"Background",
+            "traits":"Traits",
+            "secondaryTraits":"Secondary Traits",
+            "healthAndFear":"Health & Fear",
+            "movement":"Movement",
+            "initiative":"Initiative",
+            "roundActions":"Round Actions",
+            "weaponActions":"Weapon Actions",
+            "creationPoints":"Creation Points",
+            "combatPoints":"Combat Points",
+            "cp":"CP",
+            "mod":"Mod.",
+            "sv":"SV",
+            "remaining":"Remaining"
+        },
+
+        "character":{
+            "age": "Age",
+            "race": "Race",
+            "hybridRace": "Hybrid",
+            "archetype": "Archetype",
+            "profession": "Profession",
+            "religion": "Religion",
+            "culture": "Culture",
+            "size": "Size",
+            "weight": "Weight",
+            "sex": "Sex",
+            "handOfWeapon": "Hand Of Weapon",
+
+            "races": {
+                "humans": "Human",
+                "elves": "Elf",
+                "dwarves": "Dwarf",
+                "half-trolls": "half-troll",
+                "half-elves": "half-elf",
+                "dwarf-trolls": "dwarf-troll"
+            },
+            "hybrid":{
+                "half-elves": {
+                    "barkbrule":"Barkbrule",
+                    "dyfir":"Dyfir"
+                },
+                "half-trolls":{
+                    "changeling":"Changeling",
+                    "grayBrute":"Gray Brute",
+                    "ogro":"Ogro"
+                },
+                "dwarf-trolls": {
+                    "zvorda":"Zvorda"
+                }
+            }
+        },
 
         "races": {
-            "humans": "Humains",
-            "elves": "Elfes",
-            "dwarves": "Nains",
-            "half-trolls": "Demi-trolls",
-            "half-elves": "Demi-elfes",
-            "dwarf-trolls": "Nain-trolls"
+            "humans": "Humans",
+            "elves": "Elves",
+            "dwarves": "Dwarves",
+            "half-trolls": "half-trolls",
+            "half-elves": "half-elves",
+            "dwarf-trolls": "dwarf-trolls"
         },
 
         "nationalities": {

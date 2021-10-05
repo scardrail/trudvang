@@ -2,6 +2,61 @@
     "trudvang": {
         "description": "Description",
 
+        "sheet":{
+            "affiliations":"Affiliations",
+            "background":"Background",
+            "traits":"Traits",
+            "secondaryTraits":"Traits Secondaires",
+            "healthAndFear":"Santé et peur",
+            "movement":"Mouvement",
+            "initiative":"Initiative",
+            "roundActions":"Actions du tour",
+            "weaponActions":"Actions d'arme",
+            "creationPoints":"Points de Creation",
+            "combatPoints":"Points de Combat",
+            "cp":"CP",
+            "mod":"Mod.",
+            "sv":"SV",
+            "remaining":"Restants"
+        },
+
+        "character":{
+            "age": "Age",
+            "race": "Race",
+            "hybridRace": "Hybridation",
+            "archetype": "Archétype",
+            "profession": "Profession",
+            "religion": "Religion",
+            "culture": "Culture",
+            "size": "Taille",
+            "weight": "Poids",
+            "sex": "Genre",
+            "handOfWeapon": "Main d'arme",
+
+            "races": {
+                "humans": "Humain",
+                "elves": "Elf",
+                "dwarves": "Nain",
+                "half-trolls": "demi-troll",
+                "half-elves": "demi-elf",
+                "dwarf-trolls": "Nain-troll"
+            },
+            "hybrid":{
+                "half-elves": {
+                    "barkbrule":"Barkbrule",
+                    "dyfir":"Dyfir"
+                },
+                "half-trolls":{
+                    "changeling":"Changelin",
+                    "grayBrute":"Brutes Grise",
+                    "ogro":"Ogro"
+                },
+                "dwarf-trolls": {
+                    "zvorda":"Zvorda"
+                }
+            }
+        },
+
         "races": {
             "humans": "Humains",
             "elves": "Elfes",

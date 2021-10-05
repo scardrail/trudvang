@@ -5,10 +5,12 @@ import trudvangItem from "./trudvangItem.js";
 import trudvangActor from "./trudvangActor.js";
 
 import TrudvangItemSheet from "./sheets/trudvangItemSheet.js";
-import TrudvangActorSheet from "./sheets/TrudvangActorSheet.js";
+import TrudvangActorSheet from "./sheets/trudvangActorSheet.js";
 
 async function preloadHandlebarsTemplates() {
-    const templatePaths = [];
+    const templatePaths = [
+        "systems/trudvang/templates/partials/character-description-block.hbs"
+];
     return loadTemplates(templatePaths);
 }
 
@@ -28,11 +30,5 @@ Hooks.once("init", () => {
 
     // Register Handlebars helpers
     registerHandlebarsHelpers();
-    preloadHandlebarsTemplates();
-});
-
-Hooks.on("renderChatLog", (app, html, data) => {
-    Chat.addChatListeners(html);
-
     preloadHandlebarsTemplates();
 });

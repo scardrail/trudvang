@@ -1,0 +1,97 @@
+<section>
+    <div  style="display: grid; grid-template-columns:1fr 50%; gap:2px;">
+        <table>
+            <tr>
+                <td>
+                    <h3>{{localize "trudvang.character.race"}}</h3>
+                </td>
+                <td>
+                    <select name="data.affiliations.race" style="width:100%">
+                        {{#select data.data.affiliations.race}}
+                        {{#each config.characterRace as |name type|}}
+                        <option value="{{type}}">{{localize name}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </td>
+            </tr>
+             {{#if data.data.affiliations.isHybrid}}
+                <tr>
+                    <td>
+                        <h3>{{localize "trudvang.character.hybridRace"}}</h3>
+                    </td>
+                    <td>
+                        {{#if data.data.affiliations.isHalfElves}}
+                            <select name="data.affiliations.hybrid" style="width:100%">
+                                {{#select data.data.affiliations.hybrid}}
+                                {{#each config.hybridElves as |name type|}}
+                                <option value="{{type}}">{{localize name}}</option>
+                                {{/each}}
+                                {{/select}}
+                            </select>
+                        {{/if}}
+                        {{#if data.data.affiliations.isHalfTrolls}}
+                            <select name="data.affiliations.hybrid" style="width:100%">
+                                {{#select data.data.affiliations.hybrid}}
+                                {{#each config.hybridTrolls as |name type|}}
+                                <option value="{{type}}">{{localize name}}</option>
+                                {{/each}}
+                                {{/select}}
+                            </select>
+                        {{/if}}
+                        {{#if data.data.affiliations.isDwarfTrolls}}
+                            <select name="data.affiliations.hybrid" style="width:100%">
+                                {{#select data.data.affiliations.hybrid}}
+                                {{#each config.hybridDwarf as |name type|}}
+                                <option value="{{type}}">{{localize name}}</option>
+                                {{/each}}
+                                {{/select}}
+                            </select>
+                        {{/if}}
+                    </td>
+                </tr>
+            {{/if}}
+            <tr>
+                <td>
+                    <h3>{{localize "trudvang.character.archetype"}}</h3>
+                </td>
+                <td>
+                    <input name="data.affiliations.archetype" type="text" value="{{data.data.affiliations.archetype}}" placeholder={{localize "trudvang.character.archetype"}}/>
+                </td>
+            </tr>
+        </table><table>
+            <tr>
+                <td>
+                    <h3>{{localize "trudvang.character.sex"}}</h3>
+                </td>
+                <td>
+                    <input name="data.gender" type="text" value="{{data.data.gender}}" placeholder={{localize "trudvang.character.sex"}}/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>{{localize "trudvang.character.age"}}</h3>
+                </td>
+                <td>
+                    <input name="data.age" type="number" value="{{data.data.age}}" placeholder={{localize "trudvang.character.age"}}/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>{{localize "trudvang.character.size"}}</h3>
+                </td>
+                <td>
+                    <input name="data.size" type="number" value="{{data.data.size}}" placeholder={{localize "trudvang.character.size"}}/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>{{localize "trudvang.character.weight"}}</h3>
+                </td>
+                <td>
+                    <input name="data.weight" type="number" value="{{data.data.weight}}" placeholder={{localize "trudvang.character.weight"}}/>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
