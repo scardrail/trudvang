@@ -66,6 +66,45 @@
             "dwarf-trolls": "Nain-trolls"
         },
 
+        "cultures": {
+            "humans": {
+                "stormlanders": "Stormlanders",
+                "mittlanders": "Mittlanders",
+                "viranns": "Viranns",
+                "wildfolk": "Sauvages"
+            },
+            "elves": {
+                "korpikalli": "Korpikallas",
+                "illmalaini": "Illmalainas"
+            },
+            "dwarves": {
+                "buratja": "Buratja",
+                "borjornikkas": "Borjornikkas",
+                "norgavaina": "Norgavaina"
+            },
+            "half-trolls": {
+                "stormlanders": "Stormlanders",
+                "mittlanders": "Mittlanders",
+                "viranns": "Viranns",
+                "wildfolk": "Sauvages"
+            },
+            "half-elves": {
+                "stormlanders": "Stormlanders",
+                "mittlanders": "Mittlanders",
+                "viranns": "Viranns",
+                "wildfolk": "Sauvages",
+                "korpikalli": "Korpikalli",
+                "illmalaini": "Illmalaini",
+                "dyfirs": "Dyfirs",
+                "barkbrule": "Barkbrules"
+            },
+            "dwarf-trolls": {
+                "buratja": "Buratja",
+                "borjornikkas": "Borjornikkas",
+                "norgavaina": "Norgavaina"
+            }
+        },
+
         "nationalities": {
             "humans": {
                 "stormlanders": "Stormlanders",

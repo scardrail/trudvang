@@ -16,10 +16,11 @@
                     "isHalfTrolls":false,
                     "isHalfElves":false,
                     "isDwarfTrolls":false,
-                    "nationality": " ",
-                    "religion": " ",
-                    "lang": " ",
-                    "archetype": " "
+                    "culture": "none",
+                    "nationality": "none",
+                    "religion": "none",
+                    "lang": "none",
+                    "archetype": "none"
                 },
                 "richess": {
                     "copper": {
