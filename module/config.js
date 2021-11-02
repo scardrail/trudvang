@@ -1,5 +1,4 @@
 export const trudvang = {};
-//test
 
 trudvang.characterRace = {
     none: "trudvang.none",
